@@ -101,13 +101,18 @@ p {
     margin-bottom: 3%;
 }
 
-/* intro styles */
+/* intro and conclusion styles */
 
-.intro-text {
+.intro-text, .conclusion-text {
     padding: 3%;
     padding-top: 0;
     border-bottom: 1px dashed black;
     margin-bottom: 3%;
+}
+
+.conclusion-text {
+    margin-top: 3%;
+    border: none;
 }
 
 /* card styles */
