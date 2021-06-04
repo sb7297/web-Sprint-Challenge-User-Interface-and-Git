@@ -72,6 +72,34 @@ p {
     margin: 0 auto;
 }
 
+/* header styles */
+
+.header-bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 4% 0;
+}
+
+.header-bar nav {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.header-bar nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.875rem;
+}
+
+.header-hero-img {
+    height: 18vh;
+    background-image: url("../img/jumbo.jpg");
+    background-repeat: no-repeat;
+    margin-bottom: 3%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
