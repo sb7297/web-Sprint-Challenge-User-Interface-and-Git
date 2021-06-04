@@ -70,6 +70,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    max-width: 100%;
 }
 
 /* header styles */
@@ -100,11 +101,55 @@ p {
     margin-bottom: 3%;
 }
 
+/* intro styles */
+
 .intro-text {
     padding: 3%;
     padding-top: 0;
     border-bottom: 1px dashed black;
     margin-bottom: 3%;
+}
+
+/* card styles */
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-between;
+    row-gap: 1.8rem;
+}
+
+.img-card {
+    width: 46%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 3%;
+}
+
+.img-card h2 {
+    margin: 3% 0;
+}
+
+.img-card img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.img-card p {
+    margin-bottom: 3%;
+}
+
+.img-card .learn-btn {
+    padding-top: 5%;
+    padding-bottom: 8%;
+}
+
+.img-card .learn-btn a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 2% 5%;
+    border-radius: 0.5rem;
 }
 
 /* footer styles */
